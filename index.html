@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fulano's Lanches</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <a href=""><img src="img/logo.png" alt="Logo Fulano's Lanches"></a>
+    </div>
+    <button id="btn-menu" onclick="clickCardapio()">
+      <div>Cardápio</div>
+      <div><i class="fa-solid fa-caret-down"></i></div>
+    </button>
+    <nav id="menu-lanches">
+      <a href="#combos">Combos</a>
+      <p class="linha-menu"></p>
+      <a href="#burguers">Burguers</a>
+      <p class="linha-menu"></p>
+      <a href="#batatas">Batatas</a>
+      <p class="linha-menu"></p>
+      <a href="#bebidas">Bebidas</a>
+      <p class="linha-menu"></p>
+      <a href="#sobremesas">Sobremesas</a>
+    </nav>
+  </header>
+  <main>
+    
+    <ul id="cardapio">
+
+      <h1 id="combos" class="titulo">Combos</h1>
+
+      <h1 id="burguers" class="titulo">Burguers</h1>
+
+      <h1 id="batatas" class="titulo">Batatas</h1>
+
+      <h1 id="bebidas" class="titulo">Bebidas</h1>
+
+      <h1 id="sobremesas" class="titulo">Sobremesas</h1>
+
+    </ul>
+    <p id="cont-carrinho">0</p>
+    <button id="carrinho" title="Conferir carrinho.">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+
+    <button onclick="topo()" id="btnTopo" title="Ir para o topo da página"><i class="fa-solid fa-arrow-up"></i></button>
+  </main>
+  <footer>
+    <h1>Footer</h1>
+    <ul id="social">
+      <li><a href="https://www.whatsapp.com/" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+      <li><a href="https://www.instagram.com/" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="js/scroll.js"></script>
+  <script type="module" src="modulo.js"></script>
+</body>
+
+</html>
